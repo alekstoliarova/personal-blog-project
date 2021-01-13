@@ -27,6 +27,7 @@ img:hover {
 
 .container {
     padding: 2px 16px;
+   
 }
 
 .card img {
@@ -43,4 +44,3 @@ img:hover {
 
 p, h4 {
     color: white;
-}
