@@ -40,13 +40,11 @@ p, h4 {
 
 .classcard-container {
     display: grid;
-    grid-template-columns: auto auto auto auto ;
-    grid-template-rows: 300px 300px;
+    grid-template:repeat(2, 1fr) / repeat(4, 1fr) ;
     grid-gap: 3px;
-    
     }
 
 .image-element img {
-    width: 200px;
     height: 200px;
+    width: 200px;  
     }
