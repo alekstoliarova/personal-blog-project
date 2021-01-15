@@ -1,7 +1,8 @@
 @import "postpanel.css";
-@import "subscribebar.css";
+@import "blog-post.css";
 @import "navbar.css";
 @import "all-posts.css";
+@import "media-queries.css";
 
 body {
     font-family: 'Noto Sans JP', sans-serif;

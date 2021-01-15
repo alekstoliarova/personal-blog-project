@@ -1,0 +1,21 @@
+.blog-post-title {
+    height: 100%;
+    width: 400px;
+}
+
+.blog-post-text {
+    height: 100%;
+    width: 100%;   
+    margin: 0px;
+    padding: 5px;
+    border-top: 0.2px solid grey;
+}
+
+.blog-post-main {
+    margin: 2em;
+    padding: 1em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+}

@@ -47,6 +47,49 @@
     padding: 1em 1em;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
+}
+
+@media (orientation: landscape), all and (min-width: 480px) {
+  .index-menu {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: center;
+      align-content: center;
+      padding: 20px;
+  }
+  .postpanel-1-main img {
+    height: 200px;
+    width: 400px;
+    padding: 0px;
+    margin: 5px;
+    object-fit: cover;
+  }
+  .postpanel-1-header {
+    height: 200px;
+    width: 400px;
+    padding: 0px;
+    margin: 5px;
+  }
+
+  .image-element {
+      border-bottom: 0.3px solid grey;
+  }
+
+.classcard-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+}
+
+.index-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    height: 50px;
+}
+
 }
