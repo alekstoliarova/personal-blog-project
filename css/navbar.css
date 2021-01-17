@@ -1,5 +1,5 @@
 .navbar-flex {
-    background-attachment: white;
+    background-color: #52796f;
     height: 10px;
     box-shadow: 0px 0px 10px gray;
     margin: 2em;
@@ -21,12 +21,13 @@
 }
 
 .nav-social-contact a {
-    color: rgb(158, 158, 158) ;
+    color: #cad2c5;;
 }
 
 .nav-menu{
     display: flex;
     align-items: center;
+    color: #cad2c5;
 }
 
 .nav-menu li{
@@ -34,6 +35,14 @@
     list-style: none;
 }
 
-.nav-logo{
-    display: flex;
+.nav-menu a{
+    color: #cad2c5;
+    text-decoration: none;
+}
+
+.navbar-flex img {
+    height: 40px;
+    width: 70px;
+    border-radius: 20px;
+    opacity: 70%;
 }

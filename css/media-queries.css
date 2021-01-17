@@ -1,0 +1,45 @@
+@media (min-width: 320px) and (max-width: 568px) {
+
+.index-menu {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
+       
+  }
+
+.postpanel-1-header {
+    height: 200px;
+    width: 300px;
+    padding: 0px;
+    margin: 5px;
+}
+
+.postpanel-1-main img {
+    height: 200px;
+    width: 300px;
+    padding: 0px;
+    margin: 5px;
+    object-fit: cover;
+
+}
+  
+  .image-element {
+        border-bottom: 0.3px solid grey;
+  }
+  
+  .classcard-container {
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+  }
+  
+  .index-footer {
+      display: flex;
+      flex-direction: column;
+      justify-content:center ;
+      height: 50px;
+  }
+}
+
+}

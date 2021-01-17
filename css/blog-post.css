@@ -1,6 +1,7 @@
 .blog-post-title {
     height: 100%;
     width: 400px;
+    color: #52796f;
 }
 
 .blog-post-text {
@@ -9,6 +10,7 @@
     margin: 0px;
     padding: 5px;
     border-top: 0.2px solid grey;
+    color: #52796f;
 }
 
 .blog-post-main {

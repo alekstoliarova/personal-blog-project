@@ -1,3 +1,7 @@
+.body   {
+    background-color: #cad2c5;
+}
+
 .classcard-container {
     display: grid;
     grid-template:repeat(2, 1fr) / repeat(4, 1fr) ;
@@ -14,11 +18,23 @@
     margin: 0px;
     }
 
+.card {
+    color: #52796f;
+    text-decoration: none;
+}
+
 .postpanel-1-header {
     height: 400px;
     width: 800px;
     padding: 0px;
     margin: 5px;
+    color: #52796f;
+    text-decoration: none;
+}
+
+.postpanel-1-header a{
+    color: #2f3e46;
+    text-decoration: none;
 }
 
 .postpanel-1-main img {
@@ -40,7 +56,7 @@
 }
 
 .index-footer {
-    background-attachment: white;
+    background-color:  #52796f;
     height: 10px;
     box-shadow: 0px 0px 10px gray;
     margin: 2em;
@@ -51,45 +67,63 @@
     align-items: center;
 }
 
-@media (orientation: landscape), all and (min-width: 480px) {
-  .index-menu {
-      display: flex;
-      flex-direction: column-reverse;
-      justify-content: center;
-      align-content: center;
-      padding: 20px;
-  }
-  .postpanel-1-main img {
-    height: 200px;
-    width: 400px;
-    padding: 0px;
-    margin: 5px;
-    object-fit: cover;
-  }
-  .postpanel-1-header {
-    height: 200px;
-    width: 400px;
-    padding: 0px;
-    margin: 5px;
-  }
-
-  .image-element {
-      border-bottom: 0.3px solid grey;
-  }
-
-.classcard-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    margin: auto;
+.index-footer p {
+    color: #cad2c5;
 }
 
-.index-footer {
-    display: flex;
-    flex-direction: column;
-    justify-content:center ;
-    height: 50px;
+.index-footer button {
+    background-color: #cad2c5;
+    border-radius: 15px;
 }
 
+.index-footer input {
+    background-color: #cad2c5;
 }
+
+@media (min-width: 320px) and (max-width: 568px) {
+
+    .index-menu {
+            display: flex;
+            flex-direction: column-reverse;
+            justify-content: center;
+            align-content: center;
+           
+      }
+    
+    .postpanel-1-header {
+        height: 200px;
+        width: 300px;
+        padding: 0px;
+        margin: 5px;
+    }
+    
+    .postpanel-1-main img {
+        height: 200px;
+        width: 300px;
+        padding: 0px;
+        margin: 5px;
+        object-fit: cover;
+    
+    }
+      
+      .image-element {
+            border-bottom: 0.3px solid grey;
+      }
+      
+      .classcard-container {
+          display: flex;
+          flex-direction: column;
+          margin: auto;
+      }
+      
+      .index-footer {
+          display: flex;
+          flex-direction: column;
+          justify-content:center ;
+          height: 50px;
+      }
+    
+    }
+    
+ 
+    

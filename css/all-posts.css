@@ -1,8 +1,12 @@
-/* .all-posts-menu {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr) ;
-} */
+.all-posts-menu {
+    color: #52796f;
+    text-decoration: none;
+}
 
+.all-posts-menu a{
+    color: #2f3e46;
+    text-decoration: none;
+}
 .all-posts-menu-title {  
     height: 200px;
     width: 300px;
@@ -34,6 +38,21 @@
     align-items: center;
 }
 
+@media (min-width: 320px) and (max-width: 568px) {
 
+    .all-posts-menu-box {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
+           
+      }
+
+    .all-posts-menu-text {
+        height: auto;
+        width: 300px;
+    }
+   
+    }
 
 
