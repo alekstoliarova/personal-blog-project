@@ -35,6 +35,8 @@
 .postpanel-1-header a{
     color: #2f3e46;
     text-decoration: none;
+    position: relative;
+    bottom: 100px;
 }
 
 .postpanel-1-main img {
@@ -58,7 +60,7 @@
 .index-footer {
     background-color:  #52796f;
     height: 10px;
-    box-shadow: 0px 0px 10px gray;
+    box-shadow: 0px 0px 10px grey;
     margin: 2em;
     padding: 1em 1em;
     display: flex;
@@ -79,6 +81,23 @@
 .index-footer input {
     background-color: #cad2c5;
 }
+
+.avatarImage {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border:3px solid #52796f;
+    margin: 10px;
+    position: relative;
+    bottom: 136px;
+    left: 160px;
+ }
+
+ .index-menu-div {
+     position: relative;
+     bottom: 120px;
+ }
 
 @media (min-width: 320px) and (max-width: 568px) {
 
